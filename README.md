@@ -46,7 +46,7 @@ This project is intended as a reference design and learning example for STM32 HA
 - STM32CubeMX
 - STM32 HAL Library
 - Keil MDK / STM32CubeIDE
-- ARM GCC / ARMCC toolchain
+
 
 ---
 
