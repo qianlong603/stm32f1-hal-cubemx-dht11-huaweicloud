@@ -6,6 +6,8 @@ The project demonstrates temperature and humidity data acquisition from a DHT11 
 This project is intended as a reference design and learning example for STM32 HAL development, sensor interfacing, UART communication, and basic cloud connectivity.
 
 ---
+<img width="1192" height="569" alt="image" src="https://github.com/user-attachments/assets/d4c20b44-3413-4e25-8793-18d6581918f1" />
+<img width="878" height="620" alt="image" src="https://github.com/user-attachments/assets/51f7ea12-0be8-4ac4-ae9c-b1fc7b69f61d" />
 
 ## Features
 
