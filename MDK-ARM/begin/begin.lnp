@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+"begin\startup_stm32f103xe.o"
+"begin\dht11.o"
+"begin\main.o"
+"begin\gpio.o"
+"begin\usart.o"
+"begin\stm32f1xx_it.o"
+"begin\stm32f1xx_hal_msp.o"
+"begin\esp8266.o"
+"begin\stm32f1xx_hal_gpio_ex.o"
+"begin\stm32f1xx_hal_tim.o"
+"begin\stm32f1xx_hal_tim_ex.o"
+"begin\stm32f1xx_hal_uart.o"
+"begin\stm32f1xx_hal.o"
+"begin\stm32f1xx_hal_rcc.o"
+"begin\stm32f1xx_hal_rcc_ex.o"
+"begin\stm32f1xx_hal_gpio.o"
+"begin\stm32f1xx_hal_dma.o"
+"begin\stm32f1xx_hal_cortex.o"
+"begin\stm32f1xx_hal_pwr.o"
+"begin\stm32f1xx_hal_flash.o"
+"begin\stm32f1xx_hal_flash_ex.o"
+"begin\stm32f1xx_hal_exti.o"
+"begin\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "begin\begin.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "begin.map" -o begin\begin.axf
